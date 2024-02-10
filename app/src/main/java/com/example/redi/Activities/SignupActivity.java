@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.example.myapplication.CustomTextWatcher;
+import com.example.redi.CustomTextWatcher;
 import com.example.redi.R;
 import com.example.redi.SupabaseService;
 import com.example.redi.databinding.ActivitySignupBinding;

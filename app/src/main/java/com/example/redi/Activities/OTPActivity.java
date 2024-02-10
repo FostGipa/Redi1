@@ -13,7 +13,7 @@ import android.text.TextWatcher;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.example.myapplication.CustomTextWatcher;
+import com.example.redi.CustomTextWatcher;
 import com.example.redi.R;
 import com.example.redi.databinding.ActivityOtpactivityBinding;
 

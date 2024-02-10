@@ -11,6 +11,7 @@ import com.example.redi.Fragments.TrackFragment;
 import com.example.redi.Fragments.WalletFragment;
 import com.example.redi.R;
 import com.example.redi.databinding.ActivityMainBinding;
+import com.yandex.mapkit.MapKitFactory;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,6 +20,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        MapKitFactory.setApiKey("15f1c5e6-b50b-49f5-a491-57f675d736e7");
+        MapKitFactory.initialize(this);
+
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 

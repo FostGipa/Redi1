@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
-import com.example.myapplication.CustomTextWatcher;
+import com.example.redi.CustomTextWatcher;
 import com.example.redi.databinding.ActivityLoginBinding;
 
 public class LoginActivity extends AppCompatActivity {

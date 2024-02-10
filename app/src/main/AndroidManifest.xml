@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Redi"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.TransactionSuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.SendPackage2Activity"
+            android:exported="false" />
+        <activity
             android:name=".Activities.SendPackageActivity"
             android:exported="false" />
         <activity
