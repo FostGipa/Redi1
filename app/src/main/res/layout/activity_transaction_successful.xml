@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Activities.TransactionSuccessfulActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/progressBar"
+            android:layout_marginTop="150dp"
+            android:indeterminateDrawable="@drawable/spinner_ring"
+            android:indeterminateOnly="true"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView"
+            android:layout_marginTop="150dp"
+            android:visibility="gone"
+            android:src="@drawable/transaction_successful"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Transaction Successful"
+        android:textSize="25sp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="#3A3A3A"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your rider is on the way to your destination"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#3A3A3A"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Tracking Number R-7458-4567-4434-5854"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="#3A3A3A"
+        android:fontFamily="@font/roboto_regular"
+        android:textSize="15sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/send_package_buttons"
+        android:layout_marginHorizontal="20dp"
+        android:backgroundTint="#0560FA"
+        android:textSize="17sp"
+        android:text="Track my item"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_bold"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/homepageBackButton"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/send_package_buttons"
+        android:layout_marginHorizontal="20dp"
+        android:textSize="17sp"
+        android:text="Go back to homepage"
+        android:textColor="#0560FA"
+        android:fontFamily="@font/roboto_bold"
+        android:textAllCaps="false"/>
+</LinearLayout>
